@@ -1,1 +1,1 @@
-Ecolera com React JS e React native
+Ecoleta com React JS e React native
