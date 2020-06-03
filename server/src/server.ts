@@ -1,18 +1,14 @@
 import express from 'express';
+import routes from './routers'
+import path from 'path';
 
 const app = express();
 
-app.get('/users', (request, response) => {
-    console.log('lISTANDO USER');
+app.use(express.json());
+app.use(routes);
 
-    response.json([
-        'Anderson',
-        'Pedro',
-        'joao'
-    ])
 
-});
-
+app.use('/uploads' , express.static(path.resolve(__dirname, '..', 'uploads')));
 app.listen(3333, ()=>{
     console.log('Runnig server..');
 });
