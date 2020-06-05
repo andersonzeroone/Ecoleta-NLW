@@ -1,6 +1,7 @@
 import knex from '../database/connections';
 import { Request, Response} from 'express';
-
+//request param quando coloca na rota 
+//request bady criacao e edição
 class PointsController{
 
     async index(request: Request, response: Response){
@@ -12,12 +13,13 @@ class PointsController{
    
         const points = await knex('points')
         .join('points_items', 'points.id', '=', 'points_items.point_id')
-        .where('points_items.item_id', parsedItems)
+        .whereIn('points_items.item_id', parsedItems)
         .where('city', String(city))
         .where('uf', String(uf))
         .distinct()
         .select('points.*');
         console.log(city, uf, items);
+        console.log(points)
 
         return response.json(points);
     }
@@ -55,7 +57,7 @@ class PointsController{
         const trx = await knex.transaction();
         
         const point = {
-            image: 'image-fake',
+            image: 'https://images.unsplash.com/photo-1591276689146-b115b2db654d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60e',
             name,
             email,
             whatsapp,
