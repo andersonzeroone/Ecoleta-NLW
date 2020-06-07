@@ -10,12 +10,14 @@ O NLW(Next Level WeeK) tem como objetivo demotrar na prática as princinpais fer
 ### Tecnologias:
 
     Back-end:
+
        * cors;
        * express;
        * knex;
        * sqlite3.
 
-     Web:
+    Web:
+
        * axios;
        * leaflet;
        * react1;
@@ -26,7 +28,8 @@ O NLW(Next Level WeeK) tem como objetivo demotrar na prática as princinpais fer
        * react-scripts  ;     
        * typescript.
 
-    *Mobile:
+    Mobile:
+
         * axios; 
         * constants;
         * expo; 
