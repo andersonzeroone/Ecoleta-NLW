@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
-import Home from './pages/home/index';
-import CreatePoint from './pages/createPoint/index';
+import Routes from './routers';
 
 function App() {
   return (
     <div>
-      <CreatePoint/>
+      <Routes/>
     </div>
   );
 }

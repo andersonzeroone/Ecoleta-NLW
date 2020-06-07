@@ -15,7 +15,7 @@ class ItemsController{
             }
         })
     
-        return response.json({serialzedItems})     
+        return response.json(serialzedItems)     
         
     }
 }
