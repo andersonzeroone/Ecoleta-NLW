@@ -1,6 +1,15 @@
-import React from 'react';
+import React,{useState} from 'react';
 import { Feather  as Icon} from '@expo/vector-icons';
-import {View, Image, StyleSheet, Text, ImageBackground} from 'react-native';
+import { View,
+        Image,
+        StyleSheet,
+        Text,
+        ImageBackground,
+        TextInput,
+        KeyboardAvoidingView,
+        Platform,
+        } from 'react-native';
+
 import { RectButton } from 'react-native-gesture-handler';
 import {  useNavigation } from '@react-navigation/native';
 
@@ -8,12 +17,19 @@ import {  useNavigation } from '@react-navigation/native';
 const Home = () =>{
     const navigation = useNavigation();
 
+    const [uf, setUf] = useState('');
+    const [city, setCity] = useState('');
+
     function handleNavigation(){
-        navigation.navigate('Points');
+        navigation.navigate('Points',{
+          uf,
+          city,
+        });
     }
 
     return( 
-        <ImageBackground 
+        <KeyboardAvoidingView style={{flex:1}} behavior={Platform.OS === 'ios' ? 'padding':undefined }>
+          <ImageBackground 
              source={require('../../assets/home-background.png')} 
              style={styles.container}
              imageStyle={{width:274, height:368}}   
@@ -25,6 +41,22 @@ const Home = () =>{
             </View>
 
             <View style={styles.footer}>
+                <TextInput 
+                  style={styles.input}
+                  placeholder='Digite a UF'
+                  value={uf}
+                  maxLength={2}
+                  autoCorrect={false}
+                  onChangeText={setUf}
+                  >
+                </TextInput>
+                <TextInput 
+                  style={styles.input}
+                  placeholder='Digite a Cidade'
+                  value={city}
+                  onChangeText={setCity}
+                >
+                </TextInput>
                 <RectButton style={styles.button} onPress={handleNavigation}>
                     <View style={styles.buttonIcon}>  
                         <Text>
@@ -38,6 +70,7 @@ const Home = () =>{
                 </RectButton>
             </View>
         </ImageBackground>
+        </KeyboardAvoidingView>
     )
 }
 const styles = StyleSheet.create({
