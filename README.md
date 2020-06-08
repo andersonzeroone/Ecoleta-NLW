@@ -4,7 +4,7 @@
 
 ### Sobre o Projeto
 
-O Ecoleta foi um projeto desenvolvido durante a Next Level WeeK pela Rocketseat.
+O Ecoleta foi um projeto desenvolvido durante a Next Level WeeK pela [Rocketseat](https://rocketseat.com.br/).
 O NLW(Next Level WeeK) tem como objetivo demostrar, na prática, as principais ferramentas utilizadas atualmente no mercado de trabalho. A NLW foi divida em dois grupos, Booster e Starter. A booster é direcionada para quem já tem algum contato com a programação e o starter para quem esta começando.
 
 ### Tecnologias:
@@ -47,7 +47,7 @@ O NLW(Next Level WeeK) tem como objetivo demostrar, na prática, as principais f
 
 ### Como rodar o projeto  
 
-É preciso instar o nodeJs(v13) ou o yarn para poder instalar os pacotes necessários e rodar o projeto.
+É preciso instar o [nodeJs(v13)](https://nodejs.org/en/download/) ou o [yarn](https://classic.yarnpkg.com/pt-BR/) para poder instalar os pacotes necessários e rodar o projeto.
 
 *Existi algumas inconcebibilidade com o nodeJs em versões posteriores a v13.
 
