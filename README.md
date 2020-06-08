@@ -1,21 +1,23 @@
-## Ecoleta
+# Ecoleta
 
-<img src="./img/img1.jpg" width="800">
+<img src="./img/img1.jpg" width="900" height="400" >
 
 ### Sobre o Projeto
 
-O Ecoleta foi um projeto desenvolvido durante a Next Level WeeK pela Rocketseat.
-O NLW(Next Level WeeK) tem como objetivo demotrar na prática as princinpais ferramentas utlizadas atualmente no mercado de trabalho. A NLW foi divida em dois grupos, Booster e Starter. A booster é direcionada para quem já tem algum contato com a programção e o starter para quem esta començando.
+O Ecoleta foi um projeto desenvolvido durante a Next Level WeeK pela [Rocketseat](https://rocketseat.com.br/).
+O NLW(Next Level WeeK) tem como objetivo demostrar, na prática, as principais ferramentas utilizadas atualmente no mercado de trabalho. A NLW foi divida em dois grupos, Booster e Starter. A booster é direcionada para quem já tem algum contato com a programação e o starter para quem esta começando.
 
 ### Tecnologias:
 
-    Back-end:
+  #### Back-end:
+
        * cors;
        * express;
        * knex;
        * sqlite3.
 
-     Web:
+   #### Web:
+
        * axios;
        * leaflet;
        * react1;
@@ -26,7 +28,8 @@ O NLW(Next Level WeeK) tem como objetivo demotrar na prática as princinpais fer
        * react-scripts  ;     
        * typescript.
 
-    *Mobile:
+   #### Mobile:
+
         * axios; 
         * constants;
         * expo; 
@@ -44,9 +47,9 @@ O NLW(Next Level WeeK) tem como objetivo demotrar na prática as princinpais fer
 
 ### Como rodar o projeto  
 
-È preciso instar o nodeJs(v13) ou o yarn para poder instalar os pacotes necessarios e rodar o projeto.
+É preciso instar o [nodeJs(v13)](https://nodejs.org/en/download/) ou o [yarn](https://classic.yarnpkg.com/pt-BR/) para poder instalar os pacotes necessários e rodar o projeto.
 
-*Existi algumas incopatibilidae com o nodeJs em versões posteriores a v13.
+*Existi algumas inconcebibilidade com o nodeJs em versões posteriores a v13.
 
 #### Clonar o repositório
 
