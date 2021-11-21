@@ -26,7 +26,7 @@
 
 <p align="left">Ecoleta é um sistema que ajuda a encontrar empresas ou outras pessoas que fazem o descarte adequado de resíduos orgânicos e não orgânicos.
 
-Projeto desenvolvido durante a semana Next Level Week - NLW oferecida pela  [Rocketseat](https://blog.rocketseat.com.br).. O NLW é uma experiência online com muito conteúdo prático, desafios e hacks onde o conteúdo fica disponível durante uma semana.
+Projeto desenvolvido durante a semana Next Level Week - NLW oferecida pela  [Rocketseat](https://blog.rocketseat.com.br). O NLW é uma experiência online com muito conteúdo prático, desafios e hacks onde o conteúdo fica disponível durante uma semana.
 </p>
 
 <br/>
@@ -44,7 +44,7 @@ Projeto desenvolvido durante a semana Next Level Week - NLW oferecida pela  [Roc
     - resíduos orgânicos
     - óleo de cozinha
 
-- [x] Os usuários tem acesso ao aplicativo móvel, onde podem:
+- [x] Os usuários têm acesso ao aplicativo móvel, onde podem:
   - [x] navegar pelo mapa para ver as instituições cadastradas
   - [x] entrar em contato com a entidade através do E-mail ou do WhatsApp
 ---
@@ -74,19 +74,19 @@ Este projeto é divido em três partes:
 2. Frontend (pasta web)
 3. Mobile (pasta mobile)
 
-anto o Frontend quanto o Mobile precisam que o Backend esteja sendo executado para funcionar.
+Tanto o Frontend quanto o Mobile precisam que o Backend esteja sendo executado para funcionar.
 
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com) e um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+[Git](https://git-scm.com) é um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 #### 🎲Clonando o projeto
 
 ```bash
 
 # Clone este repositório
-$ git clone ggit@github.com:andersonzeroone/Ecoleta-NLW.git
+$ git clone git@github.com:andersonzeroone/Ecoleta-NLW.git
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd Ecoleta-NLW
@@ -105,7 +105,7 @@ $ npm install ou yarn install
 # Execute a aplicação
 $ npm start ou  yarn start 
 
-# O servidor inciará na porta:3333 - acesse http://localhost:3333 
+# O servidor iniciará na porta:3333 - acesse http://localhost:3333 
 
 ```
 <!-- <p align="center">
@@ -234,7 +234,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## Licença
 
-Este projeto esta sobe a licença [MIT](./LICENSE).
+Este projeto está sob a licença [MIT](./LICENSE).
 
 Feito com ❤️ por Anderson Pablo 👋🏽 [Entre em contato!](https://www.linkedin.com/in/anderson-pablo-js/)
 
